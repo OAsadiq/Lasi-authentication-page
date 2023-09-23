@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="C:\Users\sadiq\Documents\Web_projects\Index.html\font-awesome-4.7.0\cssfont-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signup-main"> 
+            <div style="position: fixed;">
+                <button class="sfeedback-btn">Leave feedback</button>
+                <ion-icon name="megaphone-outline" class="sfeedback-icon"></ion-icon>
+            </div>  
+        </div>
+
+        <div class="welcome">
+                <div class="signup-beforeform">
+                    <p>Already have an account? <a href="./index.html" class="t-signup">Login here</a></p>   
+                </div>
+
+                <div class="header">
+                    <h2 class="h2 title">Don't have a Lasi account?</h2> 
+                    <h2 class="h2 title">Let's fix that!</h2> 
+                    <p class="section-text">Collect real and usable customer feedback for free from your websites to build <br> 
+                    better products.</p>
+                </div>
+
+                <form class="form">
+                    <p>
+                        <label>Fullname</label>
+                        <input type="name" placeholder="Eg. John Doe" id= "name">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" placeholder="example@gmail.com" id= "email">
+                    </p>
+                    <p>
+                        <label>Password</label>
+                        <span>
+                            <input type="password" placeholder="" id="passwordInput">
+                            <button class="toggle-btn" id="toggleButton" onclick="togglePasswordVisibility()">Show</button>
+                        </span>                        
+                    </p>
+                    <p class="forgot">Password must contain at least <span>8 characters</span> including <span>a letter</span>, <span>a number</span> and <br> 
+                    <span>a symbol.</span></p>
+                    <button class="btn">Sign Up</button>
+
+                    <div class="signup-afterform">
+                        <p>By clicking on Sign up, you agree to Lasi's <a href="#">Privacy Policy</a> as well as our <a href="#">Terms & <br> 
+                        Conditions.</a></p>   
+                    </div>
+                </form>
+            </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
